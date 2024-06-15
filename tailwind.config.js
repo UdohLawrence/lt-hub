@@ -10,7 +10,11 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'hero': "url('/assets/images/hero-image.jpeg')"
+      })
+    },
   },
   plugins: [],
 }
