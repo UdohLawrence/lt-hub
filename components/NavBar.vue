@@ -12,10 +12,12 @@
 
 <template>
     <nav class="max-w-[1100px] flex justify-between items-center mx-auto p-2">
-      <div class="flex items-center">
-        <img src="../assets/images/logo.png" alt="Website Logo" class="w-12">
-        <h1 class="text-2xl font-bold ">Lesson Teachers Hub</h1>
+      <NuxtLink to="/">
+        <div class="flex items-center">
+          <img src="../assets/images/logo.png" alt="Website Logo" class="w-12">
+          <h1 class="text-2xl font-bold ">Lesson Teachers Hub</h1>
       </div>
+      </NuxtLink>
       <ul class="hidden md:flex justify-between space-x-4 text-xl font-semibold">
         <li>
             <NuxtLink to="#" class="hover:text-2xl">Home</NuxtLink>
@@ -30,7 +32,7 @@
             <NuxtLink to="#" class="hover:text-2xl">Login</NuxtLink>
         </li>
       </ul>
-      <div class="flex justify-between">
+      <div class="flex justify-between items-center">
         <button class="hidden sm:inline bg-violet-500 text-white text-lg font-semibold py-2 px-3 rounded-2xl mr-3">
             <NuxtLink>Sign Up</NuxtLink>
         </button>
