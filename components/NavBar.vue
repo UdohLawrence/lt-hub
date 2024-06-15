@@ -33,9 +33,11 @@
         </li>
       </ul>
       <div class="flex justify-between items-center">
-        <button class="hidden sm:inline bg-violet-500 text-white text-lg font-semibold py-2 px-3 rounded-2xl mr-3">
-            <NuxtLink>Sign Up</NuxtLink>
+        <NuxtLink to="#">
+          <button class="hidden sm:inline bg-violet-500 text-white text-lg font-semibold py-2 px-3 rounded-2xl mr-3">
+            Sign Up
         </button>
+      </NuxtLink>
         <span v-if="isDark" @click="toggleDark()">
           <img src="../assets/images/light-mode.png" alt="Light Mode Switch" class="w-8">
         </span>
