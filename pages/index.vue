@@ -4,4 +4,5 @@
 
 <template>
     <HeroSection />
+    <ClassCategories />
 </template>
