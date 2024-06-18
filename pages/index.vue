@@ -7,4 +7,5 @@
     <ClassCategories />
     <EasySteps />
     <Testimonials />
+    <ClassLevels />
 </template>
