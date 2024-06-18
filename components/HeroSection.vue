@@ -4,7 +4,7 @@
 
 <template>
     <section
-      class="relative bg-hero bg-cover bg-center bg-no-repeat"
+      class=" bg-hero bg-cover bg-center bg-no-repeat"
     >
       <div
         class="absolute inset-0 bg-black/15 dark:bg-black/50"

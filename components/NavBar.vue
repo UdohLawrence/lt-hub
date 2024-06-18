@@ -1,13 +1,13 @@
 <script setup>
-  import { useDark, useToggle } from "@vueuse/core";
+import { useDark, useToggle } from "@vueuse/core";
 
-  const isDark = useDark();
+const isDark = useDark();
 
-  const toggleDark = useToggle(isDark);
+const toggleDark = useToggle(isDark);
 </script>
 
 <template>
-  <nav class="max-w-[1100px] flex justify-between items-center mx-auto p-2">
+  <nav class="max-w-[1100px] flex justify-between items-center mx-auto px-3 py-2">
     <NuxtLink to="/">
       <div class="flex items-center">
         <img
@@ -15,24 +15,28 @@
           alt="Website Logo"
           class="w-12 mr-3"
         />
-        <h1 class="text-2xl font-bold">Lesson Teachers Hub</h1>
+        <h1 class="text-lg sm:text-xl font-semibold sm:font-bold">
+          Lesson Teachers Hub
+        </h1>
       </div>
     </NuxtLink>
-    <ul class="hidden md:flex justify-between space-x-4 text-xl font-semibold">
+
+    <ul class="hidden md:flex justify-between space-x-4 font-semibold">
       <li>
-        <NuxtLink to="#" class="hover:text-2xl">Home</NuxtLink>
+        <NuxtLink to="#" class="hover:text-lg">Home</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="#" class="hover:text-2xl">About</NuxtLink>
+        <NuxtLink to="#" class="hover:text-lg">About</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="#" class="hover:text-2xl">Contact Us</NuxtLink>
+        <NuxtLink to="#" class="hover:text-lg">Contact Us</NuxtLink>
       </li>
       <li>
         <NuxtLink to="#" class="hover:text-2xl">Login</NuxtLink>
       </li>
     </ul>
     <div class="flex justify-between items-center">
+      <button class="sm:hidden cursor-pointer text-xl mr-3">&#9776;</button>
       <NuxtLink to="#">
         <Button
           class="hidden sm:inline bg-violet-500 text-white text-lg font-semibold py-2 px-3 rounded-2xl mr-3"
@@ -43,14 +47,14 @@
         <img
           src="../assets/images/light-mode.png"
           alt="Light Mode Switch"
-          class="w-8"
+          class="w-4 sm:w-8"
         />
       </span>
       <span v-if="!isDark" @click="toggleDark()">
         <img
           src="../assets/images/dark-mode.png"
           alt="Light Mode Switch"
-          class="w-6"
+          class="w-3 sm:w-6"
         />
       </span>
     </div>
