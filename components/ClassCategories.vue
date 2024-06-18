@@ -2,7 +2,7 @@
 
 <template>
   <section
-    class="max-w-[1100px] shadow-xl flex flex-col sm:grid sm:grid-cols-3 rounded-md bg-slate-100 dark:bg-slate-700 gap-5 mx-auto p-5"
+    class="max-w-[1100px] shadow-xl flex flex-col sm:grid sm:grid-cols-3 rounded-md bg-white dark:bg-slate-700 gap-5 mx-auto p-5"
   >
     <figure class="relative h-96 w-auto">
       <img
