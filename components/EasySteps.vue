@@ -9,19 +9,19 @@
         </h2>
         <div class="max-w-[1100px] flex flex-col sm:grid sm:grid-cols-3 gap-3 mx-auto">
             <div class="p-6 shadow-lg relative">
-                <div class="rounded-full bg-amber-400 absolute top-3 left-3 p-3 z-10">1</div>
+                <div class="rounded-full bg-amber-400 absolute top-3 left-3 p-3">1</div>
                 <img src="/assets/images/step-1.png" alt="Identify area of need" class="w-4/5 mx-auto h-auto">
                 <h3 class="text-xl text-center font-semibold mt-5 p-5 dark:text-slate-100">Identify where help is needed</h3>
                 <p class="text-center p-3 dark:text-slate-100">Get solutions to problems, and answers to unanswered questions</p>
             </div>
             <div class="p-6 shadow-lg relative">
-                <div class="rounded-full bg-amber-400 absolute top-3 left-3 p-3 z-10">2</div>
+                <div class="rounded-full bg-amber-400 absolute top-3 left-3 p-3">2</div>
                 <img src="/assets/images/step-2.png" alt="Identify area of need" class="w-4/5 h-auto mx-auto">
                 <h3 class="text-xl text-center font-semibold mt-5 p-5 dark:text-slate-100">Get matched with a tutor</h3>
                 <p class="text-center p-3 dark:text-slate-100">Find the closest Tutor to your location who meets your requirements and qualifications</p>
             </div>
             <div class="p-6 shadow-lg relative">
-                <div class="rounded-full bg-amber-400 absolute top-3 left-3 p-3 z-10">3</div>
+                <div class="rounded-full bg-amber-400 absolute top-3 left-3 p-3">3</div>
                 <img src="/assets/images/step-3.png" alt="Identify area of need" class="w-full h-auto">
                 <h3 class="text-xl text-center font-semibold mt-5 p-5 dark:text-slate-100">Finally, meet your Tutor</h3>
                 <p class="text-center p-3 dark:text-slate-100">Schedule a convenient date and time to begin your classes </p>
