@@ -7,7 +7,7 @@
     >
       Testimonials
     </h2>
-    <figure class="my-12 max-w-[1100px] mx-auto shadow-2xl rounded-lg p-4">
+    <div class="my-12 max-w-[1100px] mx-auto shadow-2xl rounded-lg p-4">
       <blockquote
         class="max-w-[768px] mx-auto bg-violet-500 pl-14 pr-8 py-12 rounded-3xl relative"
       >
@@ -17,11 +17,11 @@
         I struggled with math for years, but after just a few sessions with my tutor from this site, my understanding and grades improved dramatically. Lesson teachers’ Hub made it easy to find a tutor who matched my learning style, and now I feel confident tackling even the toughest problems. Highly recommend!
         </p>
       </blockquote>
-      <figcaption
+      <p
         class="italic text-xl sm:text-2xl text-right mt-4 pr-3 text-slate-500 dark:text-slate-400"
       >
         &#8212;Adekunle Emmanuel, Student.
-      </figcaption>
+      </p>
       <blockquote
         class="max-w-[768px] mx-auto bg-violet-500 pl-14 pr-8 py-12 rounded-3xl relative"
       >
@@ -31,11 +31,11 @@
         Finding the right tutor for my child was a game-changer. The tutor we connected with was not only knowledgeable but also patient and engaging. My son went from dreading homework to looking forward to his tutoring sessions. This service has truly made a positive impact on his education.
         </p>
       </blockquote>
-      <figcaption
+      <p
         class="italic text-xl sm:text-2xl text-right mt-4 pr-3 text-slate-500 dark:text-slate-400"
       >
         &#8212;Mrs Eno Emma, Parent.
-      </figcaption>
+      </p>
       <blockquote
         class="max-w-[768px] mx-auto bg-violet-500 pl-14 pr-8 py-12 rounded-3xl relative"
       >
@@ -45,12 +45,13 @@
         Balancing a full course load and part-time job was overwhelming until I found Lesson teachers’ Hub. The flexibility and quality of the tutors available allowed me to get the help I needed on my own schedule. My grades and confidence have soared, thanks to the support I've received here.
         </p>
       </blockquote>
-      <figcaption
+      <p
         class="italic text-xl sm:text-2xl text-right mt-4 pr-3 text-slate-500 dark:text-slate-400"
       >
         &#8212;Chike Collins, College Student.
-      </figcaption>
-      
-    </figure>
+      </p>
+      <p class="max-w-[350px] bg-violet-600 text-2xl text-center text-slate-100 font-semibold my-6 mx-auto py-3 px-4 rounded-full">Get a Tutor Now!</p>
+    </div>
+    
   </section>
 </template>
