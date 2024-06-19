@@ -5,9 +5,10 @@
     <h2
       class="text-3xl font-semibold text-center mb-5 pt-6 dark:text-slate-100"
     >
-      Testimonials
+      What Our <span class="text-violet-500">Users</span> Say
     </h2>
-    <div class="my-12 max-w-[1100px] mx-auto shadow-2xl rounded-lg p-4">
+    <p class="text-center text-slate-500 max-w-md mx-auto">Hear genuine stories from our satisfied users about their exceptional esperiences with us</p>
+    <div class="max-w-[1100px] mx-auto shadow-2xl rounded-lg p-4">
       <blockquote
         class="max-w-[768px] mx-auto bg-violet-500 pl-14 pr-8 py-12 rounded-3xl relative"
       >

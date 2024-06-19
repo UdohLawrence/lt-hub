@@ -6,6 +6,6 @@
     <HeroSection />
     <ClassCategories />
     <EasySteps />
-    <Testimonials />
     <ClassLevels />
+    <Testimonials />
 </template>
