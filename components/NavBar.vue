@@ -4,6 +4,8 @@ import { useDark, useToggle } from "@vueuse/core";
 const isDark = useDark();
 
 const toggleDark = useToggle(isDark);
+
+const showMobileMenu = ref(false);
 </script>
 
 <template>
@@ -23,16 +25,16 @@ const toggleDark = useToggle(isDark);
 
     <ul class="hidden md:flex justify-between space-x-4 font-semibold">
       <li>
-        <NuxtLink to="#" class="hover:text-lg">Home</NuxtLink>
+        <NuxtLink to="/" class="hover:text-lg">Home</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="#" class="hover:text-lg">About</NuxtLink>
+        <NuxtLink to="/about" class="hover:text-lg">About</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="#" class="hover:text-lg">Contact Us</NuxtLink>
+        <NuxtLink to="/contact" class="hover:text-lg">Contact Us</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="#" class="hover:text-2xl">Login</NuxtLink>
+        <NuxtLink to="/login" class="hover:text-2xl">Login</NuxtLink>
       </li>
     </ul>
     <div class="flex justify-between items-center">
