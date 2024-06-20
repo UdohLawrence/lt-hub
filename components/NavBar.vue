@@ -52,6 +52,7 @@ const Links = [
           {{ link.name }}
         </NuxtLink>
       </li>
+      <Button>Sign Up</Button>
     </ul>
   </nav>
 </template>
