@@ -25,7 +25,7 @@ const Links = [
   <nav
     class="max-w-[1100px] bg-white dark:bg-slate-700 mx-auto shadow-b-xl py-4 md:flex items-center justify-between px-4"
   >
-    <NuxtLink to="/" class="flex justify-between items-center">
+    <NuxtLink to="/" class="flex justify-start items-center">
       <img
         src="/assets/images/logo.png"
         alt="Site Logo"
@@ -34,14 +34,14 @@ const Links = [
       <h1 class="text-xl font-semibold dark:text-white">Lesson Teachers Hub</h1>
     </NuxtLink>
     <span
-      class="text-slate-700 text-3xl absolute right-0 top-5 cursor-pointer md:hidden"
-      @click="toggleMobileMenu"
+      class="text-slate-700 text-3xl absolute right-0 top-5 cursor-pointer md:hidden px-3"
+      @click="toggleMobileMenu()"
     >
-      <button>&#9776;</button>
-      <button>&times;</button>
+      <button v-if="showMobileMenu">&times;</button>
+      <button v-else>&#9776;</button>
     </span>
     <ul
-      class="md:flex gap-5 md:static bg-white w-full md:w-auto top-14 px-6 md:px-0 pb-10 md:pb-0 duration-500"
+      class="md:flex gap-5 items-center absolute md:static bg-white w-full md:w-auto top-14 px-6 md:px-0 pb-10 md:pb-0 duration-500" :class="[showMobileMenu ? 'left-0' : 'left-[-100%]']"
     >
       <li
         v-for="link in Links"
