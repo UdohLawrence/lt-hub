@@ -19,9 +19,9 @@
         </p>
       </blockquote>
       <p
-        class="italic text-xl sm:text-2xl text-right mt-4 pr-3 text-slate-500 dark:text-slate-400"
+        class="italic text-xl sm:text-2xl text-right mt-2 mb-6 pr-3 text-slate-500 dark:text-slate-400"
       >
-        &#8212;Adekunle Emmanuel, Student.
+        &#8212;Adekunle E, Student.
       </p>
       <blockquote
         class="max-w-[768px] mx-auto bg-violet-500 pl-14 pr-8 py-12 rounded-3xl relative"
@@ -33,9 +33,9 @@
         </p>
       </blockquote>
       <p
-        class="italic text-xl sm:text-2xl text-right mt-4 pr-3 text-slate-500 dark:text-slate-400"
+        class="italic text-xl sm:text-2xl text-right mt-2 pr-3 mb-6 text-slate-500 dark:text-slate-400"
       >
-        &#8212;Mrs Eno Emma, Parent.
+        &#8212;Mrs Eno E, Parent.
       </p>
       <blockquote
         class="max-w-[768px] mx-auto bg-violet-500 pl-14 pr-8 py-12 rounded-3xl relative"
@@ -47,9 +47,9 @@
         </p>
       </blockquote>
       <p
-        class="italic text-xl sm:text-2xl text-right mt-4 pr-3 text-slate-500 dark:text-slate-400"
+        class="italic text-xl sm:text-2xl text-right mt-2 pr-3 mb-6 text-slate-500 dark:text-slate-400"
       >
-        &#8212;Chike Collins, College Student.
+        &#8212;Chike C, College Student.
       </p>
       <p class="max-w-[350px] bg-violet-600 text-2xl text-center text-slate-100 font-semibold my-6 mx-auto py-3 px-4 rounded-full">Get a Tutor Now!</p>
     </div>

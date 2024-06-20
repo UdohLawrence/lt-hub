@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    font-family: Poppins, sans-serif;
+@layer utilities{
+    body::-webkit-scrollbar{
+        display: none;
+    }
+    body{
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        font-family: 'Poppins', 'sans-serif';
+    }
 }
