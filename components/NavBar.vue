@@ -1,64 +1,57 @@
 <script setup>
-import { useDark, useToggle } from "@vueuse/core";
+import { ref } from "vue";
 
-const isDark = useDark();
+// import { useDark, useToggle } from "@vueuse/core";
 
-const toggleDark = useToggle(isDark);
+// const isDark = useDark();
+
+// const toggleDark = useToggle(isDark);
 
 const showMobileMenu = ref(false);
+
+const toggleMobileMenu = () => {
+  showMobileMenu.value = !showMobileMenu.value;
+};
+
+const Links = [
+  { name: "Home", to: "/" },
+  { name: "About Us", to: "/about" },
+  { name: "Contact", to: "/contact" },
+  { name: "Login", to: "/login" },
+];
 </script>
 
 <template>
-  <nav class="max-w-[1100px] flex justify-between items-center mx-auto px-3 py-2">
-    <NuxtLink to="/">
-      <div class="flex items-center">
-        <img
-          src="../assets/images/logo.png"
-          alt="Website Logo"
-          class="w-12 mr-3"
-        />
-        <h1 class="text-lg sm:text-xl font-semibold sm:font-bold">
-          Lesson Teachers Hub
-        </h1>
-      </div>
+  <nav
+    class="max-w-[1100px] bg-white dark:bg-slate-700 mx-auto shadow-b-xl py-4 md:flex items-center justify-between px-4"
+  >
+    <NuxtLink to="/" class="flex justify-between items-center">
+      <img
+        src="/assets/images/logo.png"
+        alt="Site Logo"
+        class="w-[32px] mr-3"
+      />
+      <h1 class="text-xl font-semibold dark:text-white">Lesson Teachers Hub</h1>
     </NuxtLink>
-
-    <ul class="hidden md:flex justify-between space-x-4 font-semibold">
-      <li>
-        <NuxtLink to="/" class="hover:text-lg">Home</NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/about" class="hover:text-lg">About</NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/contact" class="hover:text-lg">Contact Us</NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/login" class="hover:text-2xl">Login</NuxtLink>
+    <span
+      class="text-slate-700 text-3xl absolute right-0 top-5 cursor-pointer md:hidden"
+      @click="toggleMobileMenu"
+    >
+      <button>&#9776;</button>
+      <button>&times;</button>
+    </span>
+    <ul
+      class="md:flex gap-5 md:static bg-white w-full md:w-auto top-14 px-6 md:px-0 pb-10 md:pb-0 duration-500"
+    >
+      <li
+        v-for="link in Links"
+        class="my-6 md:my-0 text-xl hover:text-violet-400 duration-500"
+        :key="link.name"
+      >
+        <NuxtLink :to="link.to">
+          {{ link.name }}
+        </NuxtLink>
       </li>
     </ul>
-    <div class="flex justify-between items-center">
-      <button class="sm:hidden cursor-pointer text-xl mr-3">&#9776;</button>
-      <NuxtLink to="#">
-        <Button
-          class="hidden sm:inline bg-violet-500 text-white text-lg font-semibold py-2 px-3 rounded-2xl mr-3"
-          text="SignUp"
-        />
-      </NuxtLink>
-      <span v-if="isDark" @click="toggleDark()">
-        <img
-          src="../assets/images/light-mode.png"
-          alt="Light Mode Switch"
-          class="w-4 sm:w-8"
-        />
-      </span>
-      <span v-if="!isDark" @click="toggleDark()">
-        <img
-          src="../assets/images/dark-mode.png"
-          alt="Light Mode Switch"
-          class="w-3 sm:w-6"
-        />
-      </span>
-    </div>
   </nav>
 </template>
