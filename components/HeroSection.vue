@@ -15,7 +15,7 @@
       >
         <div class="text-center">
           <h1 class="text-3xl font-extrabold sm:text-5xl">
-            <span class="bg-gradient-to-bl from-white via-pink to-violet-800 bg-clip-text text-transparent leading-normal">Find your next lesson Tutor</span>
+            <span class="bg-gradient-to-bl from-slate-400 to-violet-600 bg-clip-text text-transparent leading-normal">Find your next lesson Tutor</span>
     
             <span class="block font-extrabold text-teal-600">(In Nigeria)</span>
           </h1>
