@@ -26,17 +26,17 @@
     
           <div class="mt-8 flex flex-col sm:grid sm:grid-cols-3 gap-4 text-center">
             <NuxtLink to="#">
-                <button class="block w-full rounded-lg bg-violet-500 px-8 py-3 text-xl font-semibold text-white shadow-md hover:bg-violet-400 focus:outline-none focus:ring">
+                <button class="block w-full rounded-lg bg-violet-500 px-8 py-3 text-xl font-semibold text-white shadow-md hover:bg-violet-400 opacity-75 focus:outline-none focus:ring">
                     Subject/Skill
                 </button>
             </NuxtLink>
             <NuxtLink to="#">
-                <button class="block w-full rounded-lg bg-violet-500 px-8 py-3 text-xl font-semibold text-white shadow-md hover:bg-violet-400 focus:outline-none focus:ring">
+                <button class="block w-full rounded-lg bg-violet-500 px-8 py-3 text-xl font-semibold text-white opacity-75 shadow-md hover:bg-violet-400 focus:outline-none focus:ring">
                     Location
                 </button>
             </NuxtLink>
             <NuxtLink to="#">
-                <button class="block w-full rounded-lg bg-violet-500 px-8 py-3 text-xl font-semibold text-white shadow-md hover:bg-violet-400 focus:outline-none focus:ring">
+                <button class="block w-full rounded-lg bg-violet-500 px-8 py-3 text-xl font-semibold text-white opacity-75 shadow-md hover:bg-violet-400 focus:outline-none focus:ring">
                     Request a Tutor
                 </button>
             </NuxtLink>
