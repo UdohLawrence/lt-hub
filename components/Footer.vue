@@ -85,6 +85,6 @@
         </ul>
       </div>
     </div>
-    <span class="mx-auto text-center italic w-screen block">&copy; Copyright {{ year.getFullYear() }}. All rights reserved!</span>
+    <span class="mx-auto text-center italic w-full block">&copy; Copyright {{ year.getFullYear() }}. All rights reserved!</span>
   </section>
 </template>
