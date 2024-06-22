@@ -1,5 +1,4 @@
 <script setup>
-import {reactive} from 'vue'
 
 const name = ""
 const email = ""
