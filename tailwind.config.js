@@ -15,7 +15,8 @@ module.exports = {
         'hero': "url('/assets/images/hero-image.jpeg')",
         'cat1': "url('/assets/images/cat-1.jpeg')",
         'cat2': "url('/assets/images/cat-2.jpeg')",
-        'cat3': "url('/assets/images/cat-3.jpeg')"
+        'cat3': "url('/assets/images/cat-3.jpeg')",
+        'login': "url('/assets/images/bg-login.jpg')"
       })
     },
   },
