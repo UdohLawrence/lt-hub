@@ -4,6 +4,7 @@ import {reactive} from 'vue'
 const name = ""
 const email = ""
 const message = ""
+
 </script>
 
 <template>
@@ -19,9 +20,6 @@ const message = ""
                 <textarea name="message" id="message" cols="25" rows="5" required placeholder="Your Message" v-model="message" class="w-full text-slate-800 p-2 rounded-xl border border-solid border-slate-200 focus:border-violet-300"></textarea>
                 <button class="bg-violet-500 hover:bg-violet-400 text-white font-semibold p-3 w-full rounded-3xl" >Submit</button>
             </form>
-            <p>{{ name }}</p>
-            <p>{{ email }}</p>
-            <p>{{ message }}</p>
         </div>
     </section>
 </template>
