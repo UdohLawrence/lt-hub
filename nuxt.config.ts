@@ -15,9 +15,6 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       meta: [
         {name: 'description', content: 'Get Professional Home Tutors for your treasured child, anywhere in Nigeria.'},
-      ],      
-      link: [
-        {rel: 'icon', href: './assets/images/favico.ico'}
       ]
     }
   }
