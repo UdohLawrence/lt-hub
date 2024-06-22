@@ -3,12 +3,10 @@
 </script>
 
 <template>
-    <h1 class="text-3xl text-white font-bold my-7">Lesson Teachers' Hub</h1>
+    <h1 class="text-3xl text-white font-bold my-7">Unlock Your Child's Potential:<br />
+        Personalized Home Lessons for Curious Minds!</h1>
       <p class="text-white mt-5 text-justify">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ea sed
-        dolore maiores temporibus vitae quia aut quo perspiciatis aliquam odio
-        unde illum eaque hic omnis odit, atque in facere voluptate minus!
-        Repellat minus ut excepturi adipisci tempore, eveniet eius nisi aut
-        consectetur quis officiis odit quidem maxime est rem.
+        Welcome to our world of tailored learning. Our passionate tutors specialize in nurturing young minds. Whether it's Maths, Science, or Creative Arts, we've got your child covered.
       </p>
+      <button>Get Started</button>
 </template>

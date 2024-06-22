@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="flex flex-col mx-auto items-center justify-center">
+    <div class="flex flex-col mx-auto items-center justify-center p-6">
         <h2 class="text-center text-2xl text-violet-600 font-semibold my-7">
           Login
         </h2>
@@ -40,14 +40,16 @@
         </div>
         <div class="flex flex-col md:flex-row w-full gap-4">
           <button
-            class="w-full bg-blue-500 text-white px-4 py-2 rounded-md mx-auto"
+            class="w-full bg-white text-slate-700 flex items-center justify-center gap-4 px-4 py-2 rounded-md mx-auto border border-blue-500"
           >
-            Login with Facebook
+          <img src="/assets/images/facebook.png" alt="Facebook Login Logo" class="w-6">
+            <p>Login with Facebook</p>
           </button>
           <button
-            class="w-full bg-white text-slate-700 px-4 py-2 rounded-md mx-auto border border-blue-500"
+            class="w-full bg-white text-slate-700 flex items-center justify-center gap-4 px-4 py-2 rounded-md mx-auto border border-blue-500"
           >
-            Login with Facebook
+          <img src="/assets/images/google.png" alt="Google Login Logo" class="w-6">
+            <p>Login with Google</p>
           </button>
         </div>
       </div>
