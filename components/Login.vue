@@ -12,13 +12,13 @@
             type="email"
             placeholder="Email"
             required
-            class="w-full mx-auto mb-3 p-3 border border-solid rounded-xl border-violet-300"
+            class="w-full mx-auto mb-3 p-4 border border-solid rounded-xl border-violet-300"
           />
           <input
             type="password"
             placeholder="Password"
             required
-            class="w-full mx-auto p-3 border border-solid rounded-xl border-violet-300"
+            class="w-full mx-auto p-4 border border-solid rounded-xl border-violet-300"
           />
           <NuxtLink to="#">
             <p class="text-rose-400 text-center my-5">Forgot password?</p>
@@ -40,7 +40,7 @@
         </div>
         <div class="flex flex-col md:flex-row w-full gap-4">
           <button
-            class="w-full bg-white text-slate-700 flex items-center justify-center gap-4 px-4 py-2 rounded-md mx-auto border border-blue-500"
+            class="w-full bg-blue text-slate-700 flex items-center justify-center gap-4 px-4 py-2 rounded-md mx-auto border border-blue-500"
           >
           <img src="/assets/images/facebook.png" alt="Facebook Login Logo" class="w-6">
             <p>Login with Facebook</p>
