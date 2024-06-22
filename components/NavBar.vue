@@ -31,7 +31,7 @@ const Links = [
         alt="Site Logo"
         class="w-[32px] mr-3"
       />
-      <h1 class="text-xl font-semibold dark:text-white">Lesson Teachers Hub</h1>
+      <h1 class="hidden sm:inline-block text-xl font-semibold dark:text-white">Lesson Teachers Hub</h1>
     </NuxtLink>
     <span
       class="text-slate-700 text-3xl absolute right-0 top-3 cursor-pointer md:hidden px-3"
