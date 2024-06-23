@@ -12,13 +12,13 @@
             type="email"
             placeholder="Email"
             required
-            class="w-full mx-auto mb-3 p-3 border border-solid rounded-xl border-violet-300"
+            class="w-full mx-auto mb-3 p-4 border border-solid rounded-xl border-violet-300"
           />
           <input
             type="password"
             placeholder="Password"
             required
-            class="w-full mx-auto p-3 border border-solid rounded-xl border-violet-300"
+            class="w-full mx-auto p-4 border border-solid rounded-xl border-violet-300"
           />
           <NuxtLink to="#">
             <p class="text-rose-400 text-center my-5">Forgot password?</p>
